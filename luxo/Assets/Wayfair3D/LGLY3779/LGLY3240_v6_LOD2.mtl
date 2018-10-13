@@ -1,0 +1,78 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 19.06.2018 22:43:09
+
+newmtl spec__545454_79_RooomyStandard_wf_67_LGLY3240
+	Ns 80.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.9020 0.9020 0.9020
+	Kd 0.9020 0.9020 0.9020
+	Ks 0.3294 0.3294 0.3294
+	Ke 0.0000 0.0000 0.0000
+
+newmtl spec__141414_70_RooomyBasicwood_wf_78_LGLY3240
+	Ns 70.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.4235 0.0510 0.0000
+	Kd 0.4235 0.0510 0.0000
+	Ks 0.0784 0.0784 0.0784
+	Ke 0.0000 0.0000 0.0000
+	map_Ka ./LGLY3240_1_1024.jpg
+	map_Kd ./LGLY3240_1_1024.jpg
+
+newmtl spec__2d2d2d_79_RooomyStandard_wf_97_LGLY3240
+	Ns 80.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0039 0.0039 0.0039
+	Kd 0.0039 0.0039 0.0039
+	Ks 0.1765 0.1765 0.1765
+	Ke 0.0000 0.0000 0.0000
+
+newmtl spec__878787_75_RooomyStandard_wf_81_LGLY3240
+	Ns 75.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0039 0.0039 0.0039
+	Kd 0.0039 0.0039 0.0039
+	Ks 0.5294 0.5294 0.5294
+	Ke 0.0000 0.0000 0.0000
+
+newmtl spec__505050_79_RooomyStandard_wf_98_LGLY3240
+	Ns 80.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.3451 0.3451 0.2980
+	Kd 0.3451 0.3451 0.2980
+	Ks 0.3137 0.3137 0.3137
+	Ke 0.0000 0.0000 0.0000
+
+newmtl shadow_mtl_LGLY3240
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.9000 0.9000 0.9000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka ./LGLY3240_shadow_plane_v6.png
+	map_Kd ./LGLY3240_shadow_plane_v6.png
