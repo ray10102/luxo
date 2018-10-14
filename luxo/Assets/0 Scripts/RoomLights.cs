@@ -56,6 +56,6 @@ public class RoomLights : MonoBehaviour {
     }
 
     public void MakeRed() {
-        SetColor("9C4051");
+        SetColor("#9C4051");
     }
 }

@@ -52,7 +52,7 @@ public class Master : MonoBehaviour {
 
     public void TriggerLamp()
     {
-        Lamp.SetTrigger(0);
+        Lamp.SetTrigger("next");
     }
 
     public void TurnOnLights()
@@ -73,18 +73,18 @@ public class Master : MonoBehaviour {
 
     public void TriggerCouch()
     {
-        Couch.SetTrigger(0);
+        Couch.SetTrigger("next");
     }
 
     public void TriggerSwivel()
     {
-        Swivel.SetTrigger(0);
+        Swivel.SetTrigger("next");
     }
 
     public void TriggerFloorLamp()
     {
         FloorLamp.gameObject.transform.position = new Vector3(2.67f, -1.626f, -2.2f);
-        FloorLamp.SetTrigger(0);
+        FloorLamp.SetTrigger("next");
     }
 
     public void ToggleFloorLampLight()
