@@ -4,13 +4,26 @@ using UnityEngine;
 
 public class FlashlightManager : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    public Flashlight left;
+    public Flashlight right;
+
+    void Update()
+    {
+        if (Input.GetButtonDown("14"))
+        {
+            if (!left.isOn)
+            {
+                right.SetLight(false);
+            }
+            left.SetLight(!left.isOn);
+        }
+        if (Input.GetButtonDown("15"))
+        {
+            if (!right.isOn)
+            {
+                left.SetLight(false);
+            }
+            right.SetLight(!right.isOn);
+        }
+    }
 }

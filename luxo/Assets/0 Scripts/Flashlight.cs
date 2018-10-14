@@ -6,6 +6,8 @@ public class Flashlight : MonoBehaviour {
 
     private Light lightComponent;
 
+    public bool isOn;
+
 	// Use this for initialization
 	void Start () {
         lightComponent = GetComponent<Light>();
@@ -16,8 +18,7 @@ public class Flashlight : MonoBehaviour {
             Debug.LogWarning("Couldn't find flashlight light on start.");
             lightComponent = GetComponent<Light>();
         }
-        if (on) {
-            lightComponent.enabled = on;
-        }
+        lightComponent.enabled = on;
+        isOn = on;
     }
 }
