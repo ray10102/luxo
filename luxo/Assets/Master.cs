@@ -8,6 +8,7 @@ public class Master : MonoBehaviour {
     public RoomLights[] lights;
     public Light FloorLampLight;
     public Color[] lightColors;
+    public GameObject oldChair;
 
     // Update is called once per frame
     void Update () {
@@ -96,6 +97,7 @@ public class Master : MonoBehaviour {
     public void TriggerFallenChair()
     {
         FallenChairObjects.SetActive(true);
+        oldChair.SetActive(false);
     }
 
     public void TriggerEvilLights()
